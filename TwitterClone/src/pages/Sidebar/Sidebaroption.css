@@ -1,0 +1,30 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .sidebarOption>h2 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  
+  .sidebarOption svg {
+    font-size: 20px; /* Set a fixed font size for visibility */
+    color: black; /* Ensure the icon is visible */
+    padding: 0; /* Remove padding temporarily */
+  }
+  
+  .sidebarOption:hover {
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+  }
+  
+  .sidebarOption:hover svg {
+    color: var(--twitter-color); /* Change icon color on hover */
+  }
+  

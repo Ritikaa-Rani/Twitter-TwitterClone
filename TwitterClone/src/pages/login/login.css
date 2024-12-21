@@ -1,0 +1,45 @@
+.login-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.image{
+    width: 700px;
+    height: 700px;
+}
+
+.icon{
+    margin-bottom: 30px;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.heading1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.email, .password, .display-name{
+    background-color: rgb(140, 202, 226);
+    color: black;
+    padding: 8px;  
+    border-radius: 4px;
+    width: 270px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: rgb(89, 207, 253);
+    color: black;
+    padding: 8px;  
+    border-radius: 4px;
+    width: 250px;
+    margin: 20px 10px 30px;
+}
